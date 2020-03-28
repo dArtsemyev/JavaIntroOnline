@@ -3,7 +3,7 @@ package by.module1.task1;
 public class FunctionValueSearchingDemo {
 	public static void main(String[] args) {
 		FunctionValueSearching functionValue = new FunctionValueSearching(6, 3, 9); 
-		System.out.printf("Function value is: %.2f", functionValue.returnFunctionValue());		
+		System.out.printf("Function value is: %.1f", functionValue.returnFunctionValue());		
 	}
 }
 class FunctionValueSearching {
